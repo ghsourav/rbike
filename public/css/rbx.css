@@ -1,0 +1,73 @@
+#rbx{
+    height: 49rem;
+    background-color: #fff;
+    margin-top: 3rem;
+}
+
+.rbxb{
+    background: linear-gradient(to right, #537895, #09203f);
+    height: 42rem;
+}
+
+.rbxb article{
+    width: 75rem;
+    padding: 2rem 0;
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+}
+.rbx-intro{
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0;
+}
+.rbx-heading{
+    margin-top: -3rem;
+    font-size: 7rem;
+  
+    font-weight: 700;
+}
+
+.rbx-heading-x{
+    color: #fed250;
+    font-size: 9rem;
+}
+.rbx-grid{
+    display: flex;
+    justify-content: space-between;
+}
+.rbx-item p{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.rbx-subGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(0px, auto);
+}
+.rbx-item li{
+    position: relative;
+    padding: 15px 0 0 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.rbx-bike{
+    margin-top: -8rem;
+    width: 40rem;
+}
+.rbx-button{
+    background-color: #fff;
+    font-weight: 800;
+    color: #000;
+    width: 75%;
+    height: 3rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 10px 10px -5px rgb(0 0 0 / 4%);
+    margin-top: 3rem;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+}

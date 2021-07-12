@@ -1,0 +1,96 @@
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.auth li {
+    list-style: none;
+    display: inline-flex;
+    padding: 9px ;
+    margin-top: 8px;
+
+}
+.auth li a{
+    padding: 0.6rem;
+    margin: 0.4rem;
+}
+.singup{
+    background: var(--yel);
+    
+    box-shadow: none;
+    border-radius: 0.3rem;
+}
+.login:hover{
+    background: rgba(0,0,0,0.15);
+}
+
+
+
+.menu{
+    padding-left: 10%;
+    width: 100%;
+    height: 40px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+
+   
+}
+nav menu li {
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+    
+}
+nav menu li:hover{
+    background: var(--yel);
+}
+nav menu ul{
+    padding: 1.1rem 0rem 0rem 0rem;
+}
+nav menu ul li a{
+    padding: 0 1rem 0 0;
+}
+#nav{
+    background: var(--main);
+    height: 6rem;
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.15);
+    width: 100%;
+    position: fixed;
+}
+.Logo{
+    margin-left: 2rem;
+    height: 3rem;
+    padding: 0.5rem;
+}
+.contact1{
+    position: fixed;
+    right: 0% !important;
+    
+    
+}
+.contact1,.contact1 a,.menu ,nav li a{
+    color: #555555;
+
+}
+#contact{
+    height: 0.3rem;
+}
+
+.city{
+    border: 3px solid var(--yel);
+    padding: 8px;
+    margin-left: 2rem;
+}
+.fa-map-marker-alt{
+    color: var(--yel);
+}
